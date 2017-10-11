@@ -1,5 +1,5 @@
 import React from 'react';
-import chart from "../statics/chart.json";
+import chart from "../statics/general/chart.json";
 
 export default class Station extends React.Component {
   constructor(props){
@@ -26,6 +26,7 @@ export default class Station extends React.Component {
     return(
       <svg
         id={"id_"+position+"_"+name[0]}
+		style={{cursor: "pointer"}}
         onClick={this._handleClick_Station}>
         {
           name.length < 2 ?

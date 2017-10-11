@@ -1,5 +1,5 @@
 import React from 'react';
-import chart from "../statics/chart.json";
+import chart from "../statics/general/chart.json";
 import Station from './Station.jsx';
 
 export default class Graph extends React.Component {
@@ -40,7 +40,7 @@ export default class Graph extends React.Component {
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
           width="100%"
-          height="87%"
+          height="90%"
           viewBox="0 0 1190 990"
           preserveAspectRatio="xMidYMid"
           >

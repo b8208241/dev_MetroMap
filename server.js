@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const path = require("path");
+const jsonfile = require('jsonfile');
+const update = require('immutability-helper');
 
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
@@ -16,6 +18,8 @@ const DOM = React.DOM;
   const link = DOM.link;
   const style = DOM.style;
   const title = DOM.title
+
+const userData = path.join(__dirname+'/statics/user.json');
 
 //Important!! babel-polyfill is here for the whole code after it!
 require('babel-polyfill');
@@ -74,6 +78,69 @@ app.use('/bundle',function(req, res){
     .pipe(res);
 })
 
+app.get('/user/station/status', function(req, res){
+    console.log('recieve "GET" request for station status');
+    jsonfile.readFile(userData, function(err, data){
+      if(err){
+        throw err;
+        res.end({
+          success: false,
+          err: err
+        });
+      }
+      let station = req.query.station;
+      res.json({
+        success: true,
+        status: data[station].status
+      });
+    })
+})
+
+app.use('/user/station/:purpose', function(req, res){
+  console.log('recieve "POST" request for station');
+
+  if(req.params.purpose=="build"){
+    jsonfile.readFile(userData, function(err, data){
+      if(err){
+        throw err;
+        res.end({
+          success: false,
+          err: err
+        });
+      }
+      let station = req.body.station;
+      let time = req.body.time;
+      let updatedData = update(data, {
+        [station]: {
+          "status": {
+            $set: [1, time]
+          }
+        }
+      })
+      jsonfile.writeFile(userData, updatedData,function(err){
+        if(err) throw err;
+      })
+      res.json({
+        success: true,
+        status: updatedData[station].status
+      });
+    })
+  }else if(req.params.purpose=="data"){
+    jsonfile.readFile(userData, function(err, data){
+      if(err){
+        throw err;
+        res.end({
+          success: false,
+          err: err
+        });
+      }
+      let station = req.query.station;
+      let sent = Object.assign({success: true}, data[station]);
+      res.json(sent);
+    })
+  }
+})
+
 app.use('/', function(req, res){
   console.log("requesting for index: 1st, html");
   let htmlHead = ReactDOMServer.renderToStaticMarkup(
@@ -87,7 +154,8 @@ app.use('/', function(req, res){
      meta({property: "og:image", content: ""}),
      script({src: "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", type: "text/javascript"}),
      script({src: "https://unpkg.com/axios/dist/axios.min.js"}),
-     link({rel: "stylesheet", href: "https://fonts.googleapis.com/earlyaccess/notosanstc.css"}),
+     link({type:'text/css', rel: "stylesheet", href: "https://fonts.googleapis.com/earlyaccess/notosanstc.css"}),
+     link({type:'text/css', rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"}),
      style({fontFamily: "'Noto Sans TC', '微軟正黑體', 'Helvetica Neue', Helvetica, Futura, sans-serif, Arial"})
    )
   );

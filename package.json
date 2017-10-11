@@ -10,13 +10,17 @@
     "babelify": "^7.3.0",
     "body-parser": "^1.17.2",
     "browserify": "^14.4.0",
+    "draft-js": "^0.10.3",
     "express": "^4.15.4",
     "express-react-views": "^0.10.2",
     "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "immutability-helper": "^2.4.0",
+    "jsonfile": "^4.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

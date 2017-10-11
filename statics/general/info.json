@@ -1,0 +1,758 @@
+{
+    "七張": {
+        "avg_usage": "30211.03226",
+        "line": "G",
+        "name": "七張",
+        "number": "03",
+        "rank": 51
+    },
+    "三和國中": {
+        "avg_usage": "21558.03226",
+        "line": "O",
+        "name": "三和國中",
+        "number": "51",
+        "rank": 67
+    },
+    "三民高中": {
+        "avg_usage": "22386.06452",
+        "line": "O",
+        "name": "三民高中",
+        "number": "53",
+        "rank": 61
+    },
+    "三重": {
+        "avg_usage": "10829.90323",
+        "line": "O",
+        "name": "三重",
+        "number": "15",
+        "rank": 95
+    },
+    "三重國小": {
+        "avg_usage": "21802.6129",
+        "line": "O",
+        "name": "三重國小",
+        "number": "50",
+        "rank": 64
+    },
+    "中山": {
+        "avg_usage": "75599.54839",
+        "line": "R",
+        "name": "中山",
+        "number": "11",
+        "rank": 7
+    },
+    "中山國中": {
+        "avg_usage": "27328.16129",
+        "line": "BR",
+        "name": "中山國中",
+        "number": "18",
+        "rank": 53
+    },
+    "中山國小": {
+        "avg_usage": "30586.25806",
+        "line": "O",
+        "name": "中山國小",
+        "number": "10",
+        "rank": 50
+    },
+    "中正紀念堂": {
+        "avg_usage": "55107.09677",
+        "line": "G",
+        "name": "中正紀念堂",
+        "number": "10",
+        "rank": 18
+    },
+    "丹鳳": {
+        "avg_usage": "15731.54839",
+        "line": "O",
+        "name": "丹鳳",
+        "number": "20",
+        "rank": 82
+    },
+    "亞東醫院": {
+        "avg_usage": "36336.90323",
+        "line": "BL",
+        "name": "亞東醫院",
+        "number": "05",
+        "rank": 43
+    },
+    "信義安和": {
+        "avg_usage": "31940.74194",
+        "line": "R",
+        "name": "信義安和",
+        "number": "04",
+        "rank": 46
+    },
+    "先嗇宮": {
+        "avg_usage": "7912.451613",
+        "line": "O",
+        "name": "先嗇宮",
+        "number": "16",
+        "rank": 100
+    },
+    "內湖": {
+        "avg_usage": "15216.77419",
+        "line": "BR",
+        "name": "內湖",
+        "number": "25",
+        "rank": 85
+    },
+    "公館": {
+        "avg_usage": "55991.83871",
+        "line": "G",
+        "name": "公館",
+        "number": "07",
+        "rank": 17
+    },
+    "六張犁": {
+        "avg_usage": "20541.67742",
+        "line": "BR",
+        "name": "六張犁",
+        "number": "13",
+        "rank": 69
+    },
+    "劍南路": {
+        "avg_usage": "21676.58065",
+        "line": "BR",
+        "name": "劍南路",
+        "number": "21",
+        "rank": 65
+    },
+    "劍潭": {
+        "avg_usage": "61882.19355",
+        "line": "R",
+        "name": "劍潭",
+        "number": "15",
+        "rank": 15
+    },
+    "動物園": {
+        "avg_usage": "13644.58065",
+        "line": "BR",
+        "name": "動物園",
+        "number": "07",
+        "rank": 90
+    },
+    "北投": {
+        "avg_usage": "31137.90323",
+        "line": "R",
+        "name": "北投",
+        "number": "22",
+        "rank": 47
+    },
+    "北門": {
+        "avg_usage": "19301.22581",
+        "line": "G",
+        "name": "北門",
+        "number": "13",
+        "rank": 73
+    },
+    "南京三民": {
+        "avg_usage": "41120.06452",
+        "line": "G",
+        "name": "南京三民",
+        "number": "18",
+        "rank": 37
+    },
+    "南京復興": {
+        "avg_usage": "67456.74194",
+        "line": "G",
+        "name": "南京復興",
+        "number": "16",
+        "rank": 11
+    },
+    "南勢角": {
+        "avg_usage": "39109.19355",
+        "line": "O",
+        "name": "南勢角",
+        "number": "01",
+        "rank": 39
+    },
+    "南港": {
+        "avg_usage": "30880.41935",
+        "line": "BL",
+        "name": "南港",
+        "number": "22",
+        "rank": 49
+    },
+    "南港展覽館": {
+        "avg_usage": "49852.41935",
+        "line": "BL",
+        "name": "南港展覽館",
+        "number": "23",
+        "rank": 24
+    },
+    "南港軟體園區": {
+        "avg_usage": "8431.935484",
+        "line": "BR",
+        "name": "南港軟體園區",
+        "number": "29",
+        "rank": 99
+    },
+    "古亭": {
+        "avg_usage": "58953.74194",
+        "line": "O",
+        "name": "古亭",
+        "number": "05",
+        "rank": 16
+    },
+    "台北101/世貿": {
+        "avg_usage": "64720.25806",
+        "line": "R",
+        "name": "台北101/世貿",
+        "number": "03",
+        "rank": 13
+    },
+    "台北小巨蛋": {
+        "avg_usage": "40490.96774",
+        "line": "G",
+        "name": "台北小巨蛋",
+        "number": "17",
+        "rank": 38
+    },
+    "台北橋": {
+        "avg_usage": "18359.48387",
+        "line": "O",
+        "name": "台北橋",
+        "number": "13",
+        "rank": 75
+    },
+    "台北車站": {
+        "avg_usage": "318220.6452",
+        "line": "R",
+        "name": "台北車站",
+        "number": "10",
+        "rank": 1
+    },
+    "台大醫院": {
+        "avg_usage": "43121.09677",
+        "line": "R",
+        "name": "台大醫院",
+        "number": "09",
+        "rank": 32
+    },
+    "台電大樓": {
+        "avg_usage": "35823.87097",
+        "line": "G",
+        "name": "台電大樓",
+        "number": "08",
+        "rank": 44
+    },
+    "唭哩岸": {
+        "avg_usage": "13580.09677",
+        "line": "R",
+        "name": "唭哩岸",
+        "number": "20",
+        "rank": 91
+    },
+    "善導寺": {
+        "avg_usage": "37537.51613",
+        "line": "BL",
+        "name": "善導寺",
+        "number": "13",
+        "rank": 41
+    },
+    "國父紀念館": {
+        "avg_usage": "43471.3871",
+        "line": "BL",
+        "name": "國父紀念館",
+        "number": "17",
+        "rank": 30
+    },
+    "圓山": {
+        "avg_usage": "49142.54839",
+        "line": "R",
+        "name": "圓山",
+        "number": "14",
+        "rank": 26
+    },
+    "土城": {
+        "avg_usage": "13076.25806",
+        "line": "BL",
+        "name": "土城",
+        "number": "03",
+        "rank": 92
+    },
+    "士林": {
+        "avg_usage": "52605.51613",
+        "line": "R",
+        "name": "士林",
+        "number": "16",
+        "rank": 22
+    },
+    "大坪林": {
+        "avg_usage": "37321.45161",
+        "line": "G",
+        "name": "大坪林",
+        "number": "04",
+        "rank": 42
+    },
+    "大安": {
+        "avg_usage": "41553.67742",
+        "line": "R",
+        "name": "大安",
+        "number": "05",
+        "rank": 36
+    },
+    "大安森林公園": {
+        "avg_usage": "16294.41935",
+        "line": "R",
+        "name": "大安森林公園",
+        "number": "06",
+        "rank": 79
+    },
+    "大橋頭": {
+        "avg_usage": "22107.80645",
+        "line": "O",
+        "name": "大橋頭",
+        "number": "12",
+        "rank": 63
+    },
+    "大湖公園": {
+        "avg_usage": "6446.290323",
+        "line": "BR",
+        "name": "大湖公園",
+        "number": "26",
+        "rank": 104
+    },
+    "大直": {
+        "avg_usage": "15453.51613",
+        "line": "BR",
+        "name": "大直",
+        "number": "20",
+        "rank": 83
+    },
+    "奇岩": {
+        "avg_usage": "15986.83871",
+        "line": "R",
+        "name": "奇岩",
+        "number": "21",
+        "rank": 81
+    },
+    "小南門": {
+        "avg_usage": "14510",
+        "line": "G",
+        "name": "小南門",
+        "number": "11",
+        "rank": 86
+    },
+    "小碧潭": {
+        "avg_usage": "4949.387097",
+        "line": "G",
+        "name": "小碧潭",
+        "number": "03A",
+        "rank": 107
+    },
+    "市政府": {
+        "avg_usage": "120058.6774",
+        "line": "BL",
+        "name": "市政府",
+        "number": "18",
+        "rank": 3
+    },
+    "府中": {
+        "avg_usage": "54453.3871",
+        "line": "BL",
+        "name": "府中",
+        "number": "06",
+        "rank": 19
+    },
+    "後山埤": {
+        "avg_usage": "30894.64516",
+        "line": "BL",
+        "name": "後山埤",
+        "number": "20",
+        "rank": 48
+    },
+    "徐匯中學": {
+        "avg_usage": "22228.64516",
+        "line": "O",
+        "name": "徐匯中學",
+        "number": "52",
+        "rank": 62
+    },
+    "復興崗": {
+        "avg_usage": "6533.258065",
+        "line": "R",
+        "name": "復興崗",
+        "number": "23",
+        "rank": 103
+    },
+    "忠孝復興": {
+        "avg_usage": "97735.25806",
+        "line": "BL",
+        "name": "忠孝復興",
+        "number": "15",
+        "rank": 4
+    },
+    "忠孝敦化": {
+        "avg_usage": "76366.25806",
+        "line": "BL",
+        "name": "忠孝敦化",
+        "number": "16",
+        "rank": 6
+    },
+    "忠孝新生": {
+        "avg_usage": "62114.41935",
+        "line": "BL",
+        "name": "忠孝新生",
+        "number": "14",
+        "rank": 14
+    },
+    "忠義": {
+        "avg_usage": "4983.322581",
+        "line": "R",
+        "name": "忠義",
+        "number": "24",
+        "rank": 106
+    },
+    "文德": {
+        "avg_usage": "9143.193548",
+        "line": "BR",
+        "name": "文德",
+        "number": "24",
+        "rank": 97
+    },
+    "新北投": {
+        "avg_usage": "10218.58065",
+        "line": "R",
+        "name": "新北投",
+        "number": "22A",
+        "rank": 96
+    },
+    "新埔": {
+        "avg_usage": "71781.51613",
+        "line": "BL",
+        "name": "新埔",
+        "number": "08",
+        "rank": 8
+    },
+    "新店": {
+        "avg_usage": "21623.83871",
+        "line": "G",
+        "name": "新店",
+        "number": "01",
+        "rank": 66
+    },
+    "新店區公所": {
+        "avg_usage": "20351.64516",
+        "line": "G",
+        "name": "新店區公所",
+        "number": "02",
+        "rank": 70
+    },
+    "新莊": {
+        "avg_usage": "18946.70968",
+        "line": "O",
+        "name": "新莊",
+        "number": "18",
+        "rank": 74
+    },
+    "昆陽": {
+        "avg_usage": "25376.93548",
+        "line": "BL",
+        "name": "昆陽",
+        "number": "21",
+        "rank": 56
+    },
+    "明德": {
+        "avg_usage": "21516.48387",
+        "line": "R",
+        "name": "明德",
+        "number": "18",
+        "rank": 68
+    },
+    "景安": {
+        "avg_usage": "46247.54839",
+        "line": "O",
+        "name": "景安",
+        "number": "02",
+        "rank": 29
+    },
+    "景美": {
+        "avg_usage": "28969.12903",
+        "line": "G",
+        "name": "景美",
+        "number": "05",
+        "rank": 52
+    },
+    "木柵": {
+        "avg_usage": "6880.903226",
+        "line": "BR",
+        "name": "木柵",
+        "number": "08",
+        "rank": 102
+    },
+    "東湖": {
+        "avg_usage": "14134.41935",
+        "line": "BR",
+        "name": "東湖",
+        "number": "28",
+        "rank": 88
+    },
+    "東門": {
+        "avg_usage": "47201.35484",
+        "line": "O",
+        "name": "東門",
+        "number": "06",
+        "rank": 28
+    },
+    "松山": {
+        "avg_usage": "43427.67742",
+        "line": "G",
+        "name": "松山",
+        "number": "19",
+        "rank": 31
+    },
+    "松山機場": {
+        "avg_usage": "11557.6129",
+        "line": "BR",
+        "name": "松山機場",
+        "number": "19",
+        "rank": 94
+    },
+    "松江南京": {
+        "avg_usage": "65604.32258",
+        "line": "G",
+        "name": "松江南京",
+        "number": "15",
+        "rank": 12
+    },
+    "板橋": {
+        "avg_usage": "78499.19355",
+        "line": "BL",
+        "name": "板橋",
+        "number": "07",
+        "rank": 5
+    },
+    "民權西路": {
+        "avg_usage": "42116.67742",
+        "line": "R",
+        "name": "民權西路",
+        "number": "13",
+        "rank": 35
+    },
+    "永安市場": {
+        "avg_usage": "49334.58065",
+        "line": "O",
+        "name": "永安市場",
+        "number": "03",
+        "rank": 25
+    },
+    "永寧": {
+        "avg_usage": "23169.77419",
+        "line": "BL",
+        "name": "永寧",
+        "number": "02",
+        "rank": 58
+    },
+    "永春": {
+        "avg_usage": "34882.03226",
+        "line": "BL",
+        "name": "永春",
+        "number": "19",
+        "rank": 45
+    },
+    "江子翠": {
+        "avg_usage": "47869.70968",
+        "line": "BL",
+        "name": "江子翠",
+        "number": "09",
+        "rank": 27
+    },
+    "海山": {
+        "avg_usage": "38425.83871",
+        "line": "BL",
+        "name": "海山",
+        "number": "04",
+        "rank": 40
+    },
+    "淡水": {
+        "avg_usage": "67845.45161",
+        "line": "R",
+        "name": "淡水",
+        "number": "28",
+        "rank": 9
+    },
+    "港墘": {
+        "avg_usage": "25169.41935",
+        "line": "BR",
+        "name": "港墘",
+        "number": "23",
+        "rank": 57
+    },
+    "石牌": {
+        "avg_usage": "54043.35484",
+        "line": "R",
+        "name": "石牌",
+        "number": "19",
+        "rank": 20
+    },
+    "科技大樓": {
+        "avg_usage": "26465.83871",
+        "line": "BR",
+        "name": "科技大樓",
+        "number": "14",
+        "rank": 55
+    },
+    "竹圍": {
+        "avg_usage": "17129.80645",
+        "line": "R",
+        "name": "竹圍",
+        "number": "26",
+        "rank": 78
+    },
+    "紅樹林": {
+        "avg_usage": "12160.64516",
+        "line": "R",
+        "name": "紅樹林",
+        "number": "27",
+        "rank": 93
+    },
+    "芝山": {
+        "avg_usage": "42599.12903",
+        "line": "R",
+        "name": "芝山",
+        "number": "17",
+        "rank": 34
+    },
+    "菜寮": {
+        "avg_usage": "17212.32258",
+        "line": "O",
+        "name": "菜寮",
+        "number": "14",
+        "rank": 77
+    },
+    "萬芳社區": {
+        "avg_usage": "4114.193548",
+        "line": "BR",
+        "name": "萬芳社區",
+        "number": "09",
+        "rank": 108
+    },
+    "萬芳醫院": {
+        "avg_usage": "22935.67742",
+        "line": "BR",
+        "name": "萬芳醫院",
+        "number": "10",
+        "rank": 59
+    },
+    "萬隆": {
+        "avg_usage": "17889.12903",
+        "line": "G",
+        "name": "萬隆",
+        "number": "06",
+        "rank": 76
+    },
+    "葫洲": {
+        "avg_usage": "14027.96774",
+        "line": "BR",
+        "name": "葫洲",
+        "number": "27",
+        "rank": 89
+    },
+    "蘆洲": {
+        "avg_usage": "22541.83871",
+        "line": "O",
+        "name": "蘆洲",
+        "number": "54",
+        "rank": 60
+    },
+    "行天宮": {
+        "avg_usage": "51057.29032",
+        "line": "O",
+        "name": "行天宮",
+        "number": "09",
+        "rank": 23
+    },
+    "西湖": {
+        "avg_usage": "26495.16129",
+        "line": "BR",
+        "name": "西湖",
+        "number": "22",
+        "rank": 54
+    },
+    "西門": {
+        "avg_usage": "145179.2581",
+        "line": "G",
+        "name": "西門",
+        "number": "12",
+        "rank": 2
+    },
+    "象山": {
+        "avg_usage": "20308.45161",
+        "line": "R",
+        "name": "象山",
+        "number": "02",
+        "rank": 71
+    },
+    "輔大": {
+        "avg_usage": "15434.45161",
+        "line": "O",
+        "name": "輔大",
+        "number": "19",
+        "rank": 84
+    },
+    "辛亥": {
+        "avg_usage": "5541.967742",
+        "line": "BR",
+        "name": "辛亥",
+        "number": "11",
+        "rank": 105
+    },
+    "迴龍": {
+        "avg_usage": "16088.16129",
+        "line": "O",
+        "name": "迴龍",
+        "number": "21",
+        "rank": 80
+    },
+    "關渡": {
+        "avg_usage": "19768",
+        "line": "R",
+        "name": "關渡",
+        "number": "25",
+        "rank": 72
+    },
+    "雙連": {
+        "avg_usage": "42926.87097",
+        "line": "R",
+        "name": "雙連",
+        "number": "12",
+        "rank": 33
+    },
+    "頂埔": {
+        "avg_usage": "14187.96774",
+        "line": "BL",
+        "name": "頂埔",
+        "number": "01",
+        "rank": 87
+    },
+    "頂溪": {
+        "avg_usage": "67679.83871",
+        "line": "O",
+        "name": "頂溪",
+        "number": "04",
+        "rank": 10
+    },
+    "頭前庄": {
+        "avg_usage": "8678.290323",
+        "line": "O",
+        "name": "頭前庄",
+        "number": "17",
+        "rank": 98
+    },
+    "麟光": {
+        "avg_usage": "7774.903226",
+        "line": "BR",
+        "name": "麟光",
+        "number": "12",
+        "rank": 101
+    },
+    "龍山寺": {
+        "avg_usage": "53944.90323",
+        "line": "BL",
+        "name": "龍山寺",
+        "number": "10",
+        "rank": 21
+    }
+}
